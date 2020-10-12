@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/d"
+    android:scaleType="centerCrop">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/overall_score_text"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:textSize="17sp"-->
+<!--        android:id="@+id/overallScoreText"-->
+<!--        android:textColor="#ffffff"/>-->
+
+
+    <Button
+        android:id="@+id/startNewGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/new_game_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/GhostWhite"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/exit_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/GhostWhite"
+        android:textSize="23sp" />
+
+
+</LinearLayout>
