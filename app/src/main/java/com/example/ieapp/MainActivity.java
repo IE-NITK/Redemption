@@ -24,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
     Button button2;
     Button button3;
     TextView tv_text;
+    TextView total_score;
     Intent i;
     String id;
     JSONArray obj;
     JSONObject mainContent;
+    int score;
 
     public JSONObject getIndexData() {
         for (int i = 0; i < obj.length(); i++) {
@@ -65,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         i = getIntent();
         id = i.getStringExtra("id");
+        score = i.getIntExtra("score",0);
         try {
             obj = new JSONArray(loadJSONFromAsset());
             mainContent = getIndexData();
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         button2 = findViewById(R.id.choice2);
         button3 = findViewById(R.id.choice3);
         tv_text = findViewById(R.id.question);
+        total_score = findViewById(R.id.score);
 
         /*Typeface font_style = Typeface.createFromAsset(getAssets(), "AlexBrush.tff");
         b_read.setTypeface(font_style);*/
@@ -88,6 +92,9 @@ public class MainActivity extends AppCompatActivity {
         String q_id1 = "";
         String q_id2 = "";
         String q_id3 = "";
+        int score1 = 0;
+        int score2 = 0;
+        int score3 = 0;
         JSONArray options;
 
         try {
@@ -99,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject obj1 = options.getJSONObject(0);
                     b1 = obj1.getString("text");
                     q_id1 = obj1.getString("q_id");
+                    score1 = obj1.getInt("score");
                 }
                 case 2: {
                     JSONObject obj1 = options.getJSONObject(0);
@@ -107,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
                     b2 = obj2.getString("text");
                     q_id1 = obj1.getString("q_id");
                     q_id2 = obj2.getString("q_id");
+                    score1 = obj1.getInt("score");
+                    score2 = obj2.getInt("score");
                 }
                 case 3: {
                     JSONObject obj1 = options.getJSONObject(0);
@@ -118,6 +128,9 @@ public class MainActivity extends AppCompatActivity {
                     q_id1 = obj1.getString("q_id");
                     q_id2 = obj2.getString("q_id");
                     q_id3 = obj3.getString("q_id");
+                    score1 = obj1.getInt("score");
+                    score2 = obj2.getInt("score");
+                    score3 = obj3.getInt("score");
                 }
             }
         } catch (JSONException e) {
@@ -125,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         final String finalQ_id1 = q_id1;
+        final int new_score1 = score1 + score;
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -134,12 +148,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
                     i.putExtra("id", finalQ_id1);
+                    i.putExtra("score",new_score1);
                     startActivity(i);
                 }
             }
         });
 
         final String finalQ_id2 = q_id2;
+        final int new_score2 = score2 + score;
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -149,12 +165,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
                     i.putExtra("id", finalQ_id2);
+                    i.putExtra("score",new_score2);
                     startActivity(i);
                 }
             }
         });
 
         final String finalQ_id3 = q_id3;
+        final int new_score3 = score3 + score;
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
                     i.putExtra("id", finalQ_id3);
+                    i.putExtra("score",new_score3);
                     startActivity(i);
                 }
             }
@@ -186,6 +205,7 @@ public class MainActivity extends AppCompatActivity {
                 button3.setText(b3);
             }
         }
+        total_score.setText(String.valueOf(score));
         tv_text.setText(text);
     }
 }
