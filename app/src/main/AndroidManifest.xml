@@ -9,19 +9,29 @@
         android:roundIcon="@mipmap/ansar_logo1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_Activity">
+        <activity
+            android:name=".Splash_Activity">
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"> </activity>
+        <activity android:name=".HomeActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter>
+    </activity>
+
+
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".Game_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".Credits"></activity>
+
     </application>
 
 </manifest>

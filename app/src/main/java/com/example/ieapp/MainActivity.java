@@ -2,6 +2,9 @@ package com.example.ieapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.choice2);
         button2 = findViewById(R.id.choice3);
         tv_text = findViewById(R.id.question);
+
+        /*Typeface font_style = Typeface.createFromAsset(getAssets(), "AlexBrush.tff");
+        b_read.setTypeface(font_style);*/
+
 
         String text = "";
         try {

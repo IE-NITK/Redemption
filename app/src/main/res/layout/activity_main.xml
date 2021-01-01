@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:background="@drawable/redem1">
 <LinearLayout
     android:id="@+id/activity_quiz"
     android:layout_width="match_parent"
@@ -19,12 +20,14 @@
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:layout_marginBottom="40dp"
-        android:padding="8dp">
+        android:padding="8dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#FFFFFF">
 
         <TextView
             android:id="@+id/score_text"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="37dp"
             android:layout_alignParentLeft="true"
             android:text="Score"
             android:textSize="20sp" />
@@ -40,6 +43,12 @@
     </RelativeLayout>
 
 
+    <!--<View
+        android:id="@+id/back_1"
+        android:layout_width="413dp"
+        android:layout_height="733dp"
+        android:background="@drawable/redem1" />-->
+
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"
@@ -47,26 +56,30 @@
         android:layout_marginBottom="40dp"
         android:padding="8dp"
         android:text="QUESTION"
+        android:background="@drawable/background"
+        android:backgroundTint="#FFFFFF"
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/choice1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BUTTON1"
-        android:background="#0091EA"
-        android:textColor="#fff"
-        android:padding="8dp"
         android:layout_marginBottom="24dp"
-        android:id="@+id/choice1"/>
+        android:background="@drawable/background"
+        android:padding="8dp"
+        android:text="@string/button1"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BUTTON2"
-        android:background="#0091EA"
-        android:textColor="#fff"
         android:padding="8dp"
         android:layout_marginBottom="24dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
         android:id="@+id/choice2"/>
 
     <Button
@@ -74,12 +87,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="#0091EA"
+        android:background="@drawable/background"
+        android:backgroundTint="#000000"
         android:padding="8dp"
         android:text="BUTTON3"
-        android:textColor="#fff" />
+        android:textColor="#FFFFFF" />
 
-<!--    <Button-->
+
+    <!--    <Button-->
 <!--        android:id="@+id/quit"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->

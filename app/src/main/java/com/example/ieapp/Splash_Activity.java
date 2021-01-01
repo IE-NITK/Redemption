@@ -9,7 +9,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import android.os.Bundle;
 import android.widget.TextView;
 
 public class Splash_Activity extends AppCompatActivity {
@@ -33,9 +32,9 @@ public class Splash_Activity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(Splash_Activity.this,MainActivity.class);
-                startActivity(i);
-                finish();
+                Intent i = new Intent(Splash_Activity.this, HomeActivity.class);
+                Splash_Activity.this.startActivity(i);
+                Splash_Activity.this.finish();
             }
         },splashTimeOut);
 
