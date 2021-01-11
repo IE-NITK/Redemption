@@ -3,6 +3,7 @@ package com.example.ieapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
@@ -19,7 +20,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-
+    SharedPreferences sharedPreferences;
     Button button1;
     Button button2;
     Button button3;
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         i = getIntent();
         id = i.getStringExtra("id");
-        score = i.getIntExtra("score",0);
+        score = i.getIntExtra("score", 0);
         try {
             obj = new JSONArray(loadJSONFromAsset());
             mainContent = getIndexData();
@@ -137,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+
         final String finalQ_id1 = q_id1;
         final int new_score1 = score1 + score;
         button1.setOnClickListener(new View.OnClickListener() {
@@ -144,11 +146,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (finalQ_id1.equals("mainmenu")) {
                     Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id","ID01");
+                    myEdit.putInt("score",0);
+                    myEdit.commit();
                     startActivity(i);
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id",finalQ_id1);
+                    myEdit.putInt("score",new_score1);
+                    myEdit.commit();
+
                     i.putExtra("id", finalQ_id1);
-                    i.putExtra("score",new_score1);
+                    i.putExtra("score", new_score1);
                     startActivity(i);
                 }
             }
@@ -161,11 +174,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (finalQ_id2.equals("mainmenu")) {
                     Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id","ID01");
+                    myEdit.putInt("score",0);
+                    myEdit.commit();
                     startActivity(i);
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id",finalQ_id2);
+                    myEdit.putInt("score",new_score2);
+                    myEdit.commit();
+
                     i.putExtra("id", finalQ_id2);
-                    i.putExtra("score",new_score2);
+                    i.putExtra("score", new_score2);
                     startActivity(i);
                 }
             }
@@ -178,11 +202,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (finalQ_id3.equals("mainmenu")) {
                     Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id","ID01");
+                    myEdit.putInt("score",0);
+                    myEdit.commit();
                     startActivity(i);
                 } else {
                     Intent i = new Intent(MainActivity.this, MainActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+                    myEdit.putString("id",finalQ_id3);
+                    myEdit.putInt("score",new_score3);
+                    myEdit.commit();
+
                     i.putExtra("id", finalQ_id3);
-                    i.putExtra("score",new_score3);
+                    i.putExtra("score", new_score3);
                     startActivity(i);
                 }
             }

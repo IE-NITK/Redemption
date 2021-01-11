@@ -12,6 +12,12 @@
     <string name="back">BACK</string>
     <string name="quit">QUIT</string>
     <string name="button1">BUTTON1</string>
+    <string name="redemption">REDEMPTION</string>
+    <string name="setting">SETTINGS</string>
+    <string name="ending">ENDINGS</string>
+    <string name="todo">TODO</string>
+    <string name="start">START</string>
+    <string name="resume">RESUME</string>
 
 
 </resources>
