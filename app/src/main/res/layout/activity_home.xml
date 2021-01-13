@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/redem1"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/quit"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/setting"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/ending"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/redemption"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:backgroundTint="#FF000000"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/redemption"
+        android:textColor="#E81010"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/start"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="196dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/redemption"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/resume"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="#000000" />
+
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="103dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/Button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/infocre"
+        android:tint="#00FFFFFF"
+        tools:ignore="DuplicateIds" />
+
+
+</RelativeLayout>
