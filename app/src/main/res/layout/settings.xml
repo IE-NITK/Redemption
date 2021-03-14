@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Settings">
+
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="20dp"
+        app:neumorph_shapeType="pressed">
+
+    <soup.neumorphism.NeumorphTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text ="@string/setting"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Black"
+        />
+    </soup.neumorphism.NeumorphCardView>
+    <soup.neumorphism.NeumorphButton
+        style="@style/Widget.Neumorph.Button"
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text= "@string/cleardata"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/delete"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="DuplicateIds" />
+
+    <soup.neumorphism.NeumorphButton
+        style="@style/Widget.Neumorph.Button"
+        android:id="@+id/button4_play"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/button5"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/musicon"
+        android:drawablePadding="10dp"
+        android:textSize="18sp"
+        android:text="@string/music"/>
+<!--        <Button-->
+<!--            android:id="@+id/button4_play"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:background="@drawable/sound"-->
+<!--            android:tint="#00FFFFFF"-->
+<!--            tools:ignore="DuplicateIds"-->
+<!--            tools:layout_editor_absoluteX="123dp"-->
+<!--            tools:layout_editor_absoluteY="308dp" />-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_above="@id/button4_play"-->
+<!--        android:layout_marginBottom="29dp"-->
+<!--        android:text="clear DATA"-->
+<!--        android:autoSizeTextType="uniform"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        app:backgroundTint="#000000"-->
+<!--        tools:ignore="DuplicateIds"-->
+<!--        tools:layout_editor_absoluteX="123dp"-->
+
+<!--        tools:layout_editor_absoluteY="308dp" />-->
+
+
+</RelativeLayout>
