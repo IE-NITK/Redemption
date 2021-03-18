@@ -54,13 +54,17 @@ public class Settings extends AppCompatActivity {
         clearData.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(), "your data is cleared now refresh/restart your app" , Toast.LENGTH_SHORT ).show();
+                Intent i = new Intent(Settings.this, HomeActivity.class);
+                Toast.makeText(getBaseContext(), "your data is cleared" , Toast.LENGTH_SHORT ).show();
 
                 SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
                 SharedPreferences.Editor myEdit = sharedPreferences.edit();
                 myEdit.putString("id","ID01");
                 myEdit.putInt("score",0);
                 myEdit.commit();
+
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(i);
             }
         });
 

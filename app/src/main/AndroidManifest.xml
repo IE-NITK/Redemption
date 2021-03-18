@@ -25,11 +25,6 @@
 
 
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Game_Screen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
         <activity android:name=".Credits"></activity>
         <activity android:name=".Settings"></activity>
 

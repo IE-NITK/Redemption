@@ -72,6 +72,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+                System.exit(0);
             }
         });
         b = (ImageButton) findViewById(R.id.button4);

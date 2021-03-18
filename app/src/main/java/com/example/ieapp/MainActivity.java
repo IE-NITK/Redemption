@@ -138,31 +138,15 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
         final String finalQ_id1 = q_id1;
         final int new_score1 = score1 + score;
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (finalQ_id1.equals("mainmenu")) {
-                    Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id","ID01");
-                    myEdit.putInt("score",0);
-                    myEdit.commit();
-                    startActivity(i);
+                    restart_app();
                 } else {
-                    Intent i = new Intent(MainActivity.this, MainActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id",finalQ_id1);
-                    myEdit.putInt("score",new_score1);
-                    myEdit.commit();
-
-                    i.putExtra("id", finalQ_id1);
-                    i.putExtra("score", new_score1);
-                    startActivity(i);
+                    update_activity(new_score1, finalQ_id1);
                 }
             }
         });
@@ -173,24 +157,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (finalQ_id2.equals("mainmenu")) {
-                    Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id","ID01");
-                    myEdit.putInt("score",0);
-                    myEdit.commit();
-                    startActivity(i);
+                    restart_app();
                 } else {
-                    Intent i = new Intent(MainActivity.this, MainActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id",finalQ_id2);
-                    myEdit.putInt("score",new_score2);
-                    myEdit.commit();
-
-                    i.putExtra("id", finalQ_id2);
-                    i.putExtra("score", new_score2);
-                    startActivity(i);
+                    update_activity(new_score2, finalQ_id2);
                 }
             }
         });
@@ -201,24 +170,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (finalQ_id3.equals("mainmenu")) {
-                    Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id","ID01");
-                    myEdit.putInt("score",0);
-                    myEdit.commit();
-                    startActivity(i);
+                    restart_app();
                 } else {
-                    Intent i = new Intent(MainActivity.this, MainActivity.class);
-                    SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
-                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
-                    myEdit.putString("id",finalQ_id3);
-                    myEdit.putInt("score",new_score3);
-                    myEdit.commit();
-
-                    i.putExtra("id", finalQ_id3);
-                    i.putExtra("score", new_score3);
-                    startActivity(i);
+                    update_activity(new_score3, finalQ_id3);
                 }
             }
         });
@@ -242,6 +196,38 @@ public class MainActivity extends AppCompatActivity {
         }
         total_score.setText(String.valueOf(score));
         tv_text.setText(text);
+    }
+
+    void update_activity(int score, String id){
+        Intent i = new Intent(MainActivity.this, MainActivity.class);
+        SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+        myEdit.putString("id",id);
+        myEdit.putInt("score",score);
+        myEdit.commit();
+
+        i.putExtra("id", id);
+        i.putExtra("score", score);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
+    }
+
+    void restart_app(){
+        Intent i = new Intent(MainActivity.this, HomeActivity.class);
+        SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref",MODE_PRIVATE);
+        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+        myEdit.putString("id","ID01");
+        myEdit.putInt("score",0);
+        myEdit.commit();
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
+    }
+
+    public void onBackPressed (){
+        Intent i = new Intent(MainActivity.this, HomeActivity.class);
+        finish();
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 }
 
