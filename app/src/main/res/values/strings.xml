@@ -47,4 +47,13 @@
     <string name="newline">\n</string>
 
 
+    <!--Strings For Endings Page -->
+    <string name="title_Endings">Endings</string>
+    <string name="endings_page">ENDINGS</string>
+    <string name="ending_1">Ending 1</string>
+    <string name="ending_2">Ending 2</string>
+    <string name="ending_3">Coming Soon</string>
+    <string name="ending_4">Coming Soon</string>
+    <string name="ending_back">BACK</string>
+
 </resources>

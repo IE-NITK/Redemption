@@ -19,6 +19,7 @@ public class HomeActivity extends AppCompatActivity {
     Button play;
     MediaPlayer ring;
     Button resume;
+    Button endings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +65,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), Settings.class));
+            }
+        });
+
+        endings = (Button) findViewById(R.id.button2);
+        endings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), com.example.ieapp.endings.class));
             }
         });
 
