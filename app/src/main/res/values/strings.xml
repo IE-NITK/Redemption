@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Redemption</string>
+    <string name="app_name">Ophidian</string>
     <string name="new_game_button_text">NEW GAME</string>
     <string name="exit_button_text">EXIT GAME</string>
     <string name="by_ie_nitk">By IE NITK</string>
     <string name="large_text">large text</string>
-    <string name="redemption_app">REDEMPTION APP</string>
+    <string name="redemption_app">OPHIDIAN APP</string>
     <string name="new_game">New Game</string>
     <string name="endings">Endings</string>
     <string name="settings">Settings</string>
@@ -15,7 +15,7 @@
     <string name="button1">BUTTON1</string>
     <string name="button2">BUTTON2</string>
     <string name="button3">BUTTON3</string>
-    <string name="redemption">REDEMPTION</string>
+    <string name="redemption">OPHIDIAN</string>
     <string name="setting">SETTINGS</string>
     <string name="ending">ENDINGS</string>
     <string name="todo">TODO</string>
