@@ -1,366 +1,467 @@
 [
   {
     "id": "ID01",
-    "text": "Fairy Tales are stories involving fantastic forces, usually good versus evil, most originating in folklore, mythology, and legend. They feature fantasy beings like dragons, dwarfs, fairies and talking animals. They aren't just for kids. In fact, many are complex morality tales; some are graphic or morbid, and shouldn't be read to children at all. We recommend previewing stories before reading with your children.",
+    "text": "The sound of glass shattering goes unnoticed as a skinny male in his twenties throws his second punch at a guy double his age. You discreetly signal Clay to get the bouncer inside. Being the owner of a bar isn't as fun as the lads imagine. It was a newly replaced chair the older guy just broke. Workers and patrons at the bar immediately look at you. You know you're not the strongest here. So you",
     "ending": false,
-    "no_of_options": 3,
+    "no_of_options": 2,
     "options": [
       {
-        "text": "hi this is button 1",
-        "score": 2,
+        "text": "Wait for the bouncer to arrive",
         "q_id": "ID02"
       },
       {
-        "text": "so what i'm 2",
-        "score": 3,
-        "q_id": "ID03"
+        "text": "To stop the fight from going out of hand and to not look weak to your workers, you walk into the fight",
+        "q_id": "ID01.1"
+      }
+    ]
+  },
+  {
+    "id": "ID01.1",
+    "text": "You walk round the counter and between both of them. And throw a punch at the bigger guy. You’ve known him for a while and he’s been causing a lot of trouble recently. “That’s enough Shawn. You started the verbal fight. Now let him go.” The bigger guy changes course from the smaller guy to you. He looks like a bull advancing at you. He raises his right hand to punch your face. You were smaller compared to the bigger guy, so you decided to use your size to your advantage. You twist your body at the last moment so now your",
+    "ending": false,
+    "no_of_options": 2,
+    "options": [
+      {
+        "text": "Back is to his front.",
+        "q_id": "ID01.11"
       },
       {
-        "text": "button 3",
-        "score": 4,
-        "q_id": "ID04"
+        "text": "Face is to the side of his arm that threw a punch at you",
+        "q_id": "ID01.12"
+      }
+    ]
+  },
+  {
+    "id": "ID01.11",
+    "text": "You see surprise on the smaller guy’s face. His mouth opens to give you some warning. By the time you turn to see what the bigger guy’s next move is, he catches you by the back of your neck with his left hand and pulls a knife from his back pocket with his right hand. You try twisting but he overpowers you. He stabs you in the side of your neck and pushes you forward. You stumble into the arms of the smaller guy. He holds you up. The bigger guy starts running but the bouncers enter that precise moment. You can feel your heartbeat slowing down. Your workers and patrons start rushing towards you. Clay yells, “ETHAN!”",
+    "ending": true,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "You die",
+        "q_id": "ID000"
+      }
+    ]
+  },
+  {
+    "id": "ID01.12",
+    "text": "You push your entire weight on your right leg and hook your left between the bigger guy’s legs and use the momentum he gained with the punch to pull his left leg to your side. He loses his balance and falls at the legs of the smaller guy. The smaller guy thinks this is an opportunity for him to assault the fallen bigger guy. He raises his leg to stomp but you push him off before he can. You tell him, “Hey, back off”. He stumbles back. You turn back to  tell the bigger guy to stop causing trouble in your bar. You walk to help the bigger guy. “Ethan, watch out!” You realise too late that the smaller guy pulled a knife from the pocket. He stabs you in the neck. You can feel the life ebbing out of you. You fall to your side. The bouncers come behind the smaller guy and grab him. ",
+    "ending": true,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "the end",
+        "q_id": "ID000"
       }
     ]
   },
   {
     "id": "ID02",
-    "text": "Two",
+    "text": "You learned your lesson long ago that saving stools and glasses was not worth the broken teeth. John, the bouncer, clears the fight and the result is a set of broken stool legs on the floor which were immediately cleared. You sure lost some money on the property and the respect of your workers, but you know that as long as you pay them, they’ll work. You are the only owner that pays and treats its workers well in this small village. They ain’t going anywhere.\n\nPatrons continue to drink and dance as though nothing happened. Clay assigns Sam, his intended replacement, to bartender duty and sits with you. Clay was the bartender of The Respite for so long, it was difficult to imagine it without him. \n\nYou sit at the last booth and quietly sip your whisky while looking at your ring finger wondering if everything is as fake as...\n\n\"Tomorrow is the big day then?\" Clay asks, interrupting your dark thoughts, breaking the comfortable silence you established while sipping your drink. \n\n\"Yeah\" you reply dully, downplaying your enthusiasm. \nThe thing is, tomorrow is your fifth wedding anniversary. Things haven't been the best lately, and you are looking forward to spending some quality time with your wife. You feel ",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "5",
-        "score": 5,
-        "q_id": "ID05"
+        "text": "Nervous",
+        "q_id": "ID03"
       },
       {
-        "text": "6",
-        "score": 6,
-        "q_id": "ID06"
+        "text": "Excited",
+        "q_id": "ID03"
+      },
+      {
+        "text": "Nostalgic",
+        "q_id": "ID03"
       }
     ]
   },
   {
     "id": "ID03",
-    "text": "Three",
+    "text": "You feel (option chosen). Alice is the one person who truly knows what's going on in your head. And you don't mean that in the metaphorical romantic way. You mean it as a your-wife-is-a-psychiatrist-and-you-were-her-patient kind of way. You were raving mad when you first met her, an intern under a psychiatrist - you are told that you hurled a chair at her during your first session and kept begging her to kill you. A severe case of Post Traumatic Stress Disorder - but what is the trauma, one might wonder. That's the thing. You have no idea. \n\nYou couldn't help but fall in love with her. After your discharge, you met a lot of people - building an idea of how people are and how the world is. When you can’t remember anything about your past self, or anyone from your past, you feel very helpless. This helplessness made you so pathetic that you wanted to end your life. You didn’t have a purpose. But then Alice helped you realise that the world is also messy in its own way, but everyone does their best to scrape by. She helped you discover a reason to live. You wanted to share your life with her and when she also realised that, you both didn’t hesitate to take the plunge and get married. Alice walks through the door and breaks your reverie. You go to the bar to pick up her favorite drink which is:",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "6",
-        "score": 6,
-        "q_id": "ID06"
+        "text": "Good ol' beer",
+        "score": 10,
+        "q_id": "ID04"
       },
       {
-        "text": "7",
-        "score": 7,
-        "q_id": "ID07"
+        "text": "Two vodka shots",
+        "score": 11,
+        "q_id": "ID04"
+      },
+      {
+        "text": "Pinot Noir",
+        "score": 13,
+        "q_id": "ID04"
       }
     ]
   },
   {
     "id": "ID04",
-    "text": "Four",
+    "text": "You get a (option chosen) and walk across the bar to her along with a drink of your own. Her face is pink due to the cold outside. She smiles when she sees you and you both sit at your table. \n\n\"How was your day, Doctor?\" you ask her looking into her eyes, with a smirk.\n \"Your doctor is waiting for her husband to dance with her.” She chuckles. “Come, let's go!\". She finishes her drink and rises from her seat and tugs on your hand. \n\nYou rise and leave the two empty glasses on the table. You go to the bar and request Sam to play some music. \n\n\"I'm not a DJ\" she replies and winks. You ask her to play:",
     "ending": false,
     "no_of_options": 3,
     "options": [
       {
-        "text": "7",
-        "score": 7,
-        "q_id": "ID07"
+        "text": "Billie Jean by Michael Jackson",
+        "q_id": "ID05"
       },
       {
-        "text": "8",
-        "score": 8,
-        "q_id": "ID08"
+        "text": "Careless Whisper by George Michael",
+        "q_id": "ID05"
       },
       {
-        "text": "9",
-        "score": 9,
-        "q_id": "ID09"
+        "text": "Livin' On a Prayer by Bon Jovi",
+        "q_id": "ID05"
       }
     ]
   },
   {
     "id": "ID05",
-    "text": "Five",
+    "text": "You dance to the music for a while. This feels comfortable. This feels easy. This is how things should be, you muse to yourself. You dance in your little bubble, cut off from the rest of the world in that moment. \n\nAfter a few more drinks with Clay and Sam, you both leave. Tomorrow is your anniversary after all. \n\nAlice is now asleep and you’re writing in your journal so that you can sleep once you finish. You used to maintain a journal at the beginning of your recovery because you were paranoid that you would lose your memory again. After that, it just became a habit to jot your thoughts down. It calms you and allows you to be retrospective. It has been a good day today. You",
+    "ending": false,
+    "no_of_options": 3,
+    "options": [
+      {
+        "text": "Finish writing and go to sleep",
+        "q_id": "ID05.1"
+      },
+      {
+        "text": "Go through old photo albums ",
+        "q_id": "ID05.2"
+      },
+      {
+        "text": "Check if all doors are closed and then go to sleep",
+        "q_id": "ID05.3"
+      }
+    ]
+  },
+  {
+    "id": "ID05.1",
+    "text": "You wake up within 5 seconds,go check the doors and then go to sleep. \n\nYour dream:\n\nAs you looked into her eyes, she was as beautiful as any other day. You take her hand and hold her ring. \nShe’s fading, all the light is fading. You try holding on but she's almost gone. Her lips are moving but you can't make out the words. You plead for her to stay, but she's already long gone. ",
     "ending": false,
     "no_of_options": 1,
     "options": [
       {
-        "text": "20",
-        "score": 20,
-        "q_id": "ID20"
+        "text": "you wake up",
+        "q_id": "ID06"
+      }
+    ]
+  },
+  {
+    "id": "ID05.2",
+    "text": "You think of all the good old memories that you and Alice shared. You start to wonder what your life was like before you lost your memory. You get lost in your thoughts and doze off soon.\n\nYour dream:\n\nAs you looked into her eyes, she was as beautiful as any other day. You take her hand and hold her ring. \nShe’s fading, all the light is fading. You try holding on but she's almost gone. Her lips are moving but you can't make out the words. You plead for her to stay, but she's already long gone.",
+    "ending": false,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "you wake up",
+        "q_id": "ID06"
+      }
+    ]
+  },
+  {
+    "id": "ID05.3",
+    "text": "You walk up to the bed and lie beside her on your side. You fall asleep while looking at her, with a smile on your lips.\n\nYour dream:\n\nAs you looked into her eyes, she was as beautiful as any other day. You take her hand and hold her ring. \nShe’s fading, all the light is fading. You try holding on but she's almost gone. Her lips are moving but you can't make out the words. You plead for her to stay, but she's already long gone. ",
+    "ending": false,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "you wake up",
+        "q_id": "ID06"
       }
     ]
   },
   {
     "id": "ID06",
-    "text": "Six",
+    "text": "You wake up with a headache. You feel like you dreamt of something important last night, but the more you think about it, the more it evades you. You look over to your right - Alice is still sleeping, her makeup smeared over her eyes. One of her legs is sandwiched between yours. You get out of bed carefully so that you won't wake her up. Kiss her forehead and walk over to the medicine cabinet. You ",
     "ending": false,
     "no_of_options": 3,
     "options": [
       {
-        "text": "10",
-        "score": 10,
-        "q_id": "ID10"
+        "text": "Take Midol ",
+        "q_id": "ID#1"
       },
       {
-        "text": "11",
-        "score": 11,
-        "q_id": "ID12"
+        "text": "Take Aspirin",
+        "q_id": "ID07"
       },
       {
-        "text": "13",
-        "score": 13,
-        "q_id": "ID13"
+        "text": "Take an unknown pill from a bottle you earlier found stashed in the sofa.",
+        "q_id": "ID01"
       }
     ]
   },
   {
     "id": "ID07",
-    "text": "Seven",
+    "text": "You start feeling a little better. Owning a bar has done wonders to your alcohol tolerance. You look at Alice sleeping deeply. Six fateful years of finding yourself...\n\nBut lately, your relationship is not what it used to be. Troubles in your married life started when you tried to know your past. You didn’t want to live clueless for the rest of your life. So despite what Charles, the only link to your past, warned you about in a text before his death, you try. You go to the local police station and ask them if anyone filed a missing report on him. A missing person who didn’t have a ring finger on his left hand. But it wasn’t fruitful, it only made Alice worried.\n\nYou decide to surprise her with flowers. You ask Mary, your maid, to get",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "12",
-        "score": 12,
-        "q_id": "ID12"
+        "text": "White Lilies",
+        "q_id": "ID08"
       },
       {
-        "text": "13",
-        "score": 13,
-        "q_id": "ID13"
+        "text": "Blue Orchids",
+        "q_id": "ID08"
+      },
+      {
+        "text": "Ruby Roses",
+        "q_id": "ID08"
       }
     ]
   },
   {
     "id": "ID08",
-    "text": "Eight",
+    "text": "You make pancakes. It is your fond memory of Alice teaching you how to make pancakes. You want to be a father one day and the ability to cook pancakes feels like an important requisite for parenthood. \n\nMary brings the (selected flower) bouquet from a florist. You arrange the flowers on the plate and place it on the bedside table. Alice is still asleep and you didn’t have the heart to wake her up. Psychiatry is a difficult profession. \n\n You decide to leave a note on the plate. \n\n\"Morning, love. Everything will be special today, be ready at six tonight. \n\n-Impatient husband\" \n\nShe loves notes; you have a sneaky suspicion that she stores them somewhere. \n\nYou leave for work - Clay and you decided to buy stronger stools for the bar today. You also have to talk to the local police about a harassment that occured one week prior in the bar. You get some bad people in the bar sometimes.\n\nAs you walk along the road looking for a cab, you see a roadside beggar. It is too late to avoid him. He clings onto your leg and wails:\n\n“HELP ME, SIR! I NEED SOME MONEY FOR MY AILING WIFE, BEEN HUNGRY FOR DAYS SIR”",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "13",
-        "score": 13,
-        "q_id": "ID13"
+        "text": "Give him all your money",
+        "q_id": "ID08.1"
       },
       {
-        "text": "14",
-        "score": 14,
-        "q_id": "ID14"
+        "text": "Ignore the dirty street rat and move on",
+        "q_id": "ID09"
+      },
+      {
+        "text": "Kick him in the gut. You never understood beggars",
+        "q_id": "ID08.2"
+      }
+    ]
+  },
+  {
+    "id": "ID08.1",
+    "text": "You can’t go on a date with your wife anymore. Your marriage breaks not long after. You fall into the old helplessness where you don’t have a purpose anymore. But this time the pain is even greater because you can clearly remember what you lost. You waste your life away.",
+    "ending": true,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "death",
+        "q_id": "ID000"
+      }
+    ]
+  },
+  {
+    "id": "ID08.2",
+    "text": "Police arrest you and put you in jail. You are released the day after your anniversary. Alice is very upset with you. She moves away and goes to live at her mother’s place. You soon get divorce papers in the mail. ",
+    "ending": true,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "the end",
+        "q_id": "ID000"
       }
     ]
   },
   {
     "id": "ID09",
-    "text": "Nine",
+    "text": "You feel guilty for ignoring the beggar but it had to be done. You meet Clay at Roy's Furniture and luckily were able to get the stools repaired rather than replaced. \n\nYou take a cab to the police station. \n\n\"What do you plan on doing, boss?\" Clay asks in a worried, low voice. Clay only calls you boss in tense situations.\n\n\"Did she clearly say no?\" you ask. You weren't present in the bar when the incident occurred. \n\n\"Yeah, but\" he sighs, \"You know how these guys are\" \n\nThe truth is that your patrons consisted of all classes of society. Sometimes, you'd get these men who drank a lot but never danced. They brought along girls sometimes. Clay and you dismissed them in the early days, but one day a violent fight broke out. It was then that Clay and you realized these men had guns. All of them. \n\nThese men would mistreat their girls - in this case, one of the men didn't stop even after his girl clearly said no. They shortly left the bar and that was the last time Clay saw them. \n\nYou got a call earlier this week from the Inspector of Police to meet him regarding the girl. Clay is very worried. You",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "15",
-        "score": 15,
-        "q_id": "ID15"
+        "text": "Reassure Clay that it wouldn't be serious",
+        "q_id": "ID10"
       },
       {
-        "text": "16",
-        "score": 16,
-        "q_id": "ID16"
+        "text": "Ignore Clay and the awkward situation by looking at the stool receipts",
+        "q_id": "ID10"
+      },
+      {
+        "text": "Say nothing because you are not good with this kind of thing, but pat his back to show him your support",
+        "q_id": "ID10"
       }
     ]
   },
   {
     "id": "ID10",
-    "text": "Ten",
+    "text": "You enter the police station and meet Mr. James Pressman, the Inspector. This is not the first time you are meeting James (he insisted on being called James). \n\nJames intervened multiple times to take care of cases ranging from public indecency to physical assault. He did criticize the lack of security in bars in general, but was extremely helpful otherwise. It is really important for a bar owner to have a good relationship with the police. \n\nThis time it is a little serious - James wasn't smiling. He asks Clay for an eye-witness account and leaves to get the room set up to record his statement. You",
     "ending": false,
-    "no_of_options": 1,
+    "no_of_options": 2,
     "options": [
       {
-        "text": "20",
-        "score": 20,
-        "q_id": "ID20"
+        "text": "Tell Clay to lie about it. We don't need the negative media coverage",
+        "q_id": "ID11"
+      },
+      {
+        "text": "Tell Clay to be honest. Install security cameras everywhere inside the club.",
+        "q_id": "ID#2"
       }
     ]
   },
   {
     "id": "ID11",
-    "text": "Eleven",
+    "text": "You return to the bar and get everything set up for the evening. Friday and Saturday are your big days. You have to make sure that the food is ready and the mood is set.\n\nYou catch the eye of one of the men with guns. This guy feels different. He is drinking beer, but that was just to keep his hands full. You realise he didn't come here to get drunk. You meet  people like him in the bar, who come to meet with someone, but leave quietly anyway so you don’t worry about it.\n\nYou leave the bar to meet Alice. She is wearing a beautiful blue cocktail dress you've never seen before and diamond earrings you gifted her for your third anniversary. You",
     "ending": false,
-    "no_of_options": 1,
+    "no_of_options": 2,
     "options": [
       {
-        "text": "20",
-        "score": 20,
-        "q_id": "ID20"
+        "text": "Compliment her",
+        "q_id": "ID12"
+      },
+      {
+        "text": "Throw in a joke to make her smile",
+        "q_id": "ID12"
       }
     ]
   },
   {
     "id": "ID12",
-    "text": "Twelve",
+    "text": "After settling in the car, you fill the silence with trivial gossips and insights about sports and weather. It feels like a normal conversation between a couple. Once in a while Alice looked out of the window with a faraway look in her eye. You can still feel the underlying tension between the two of you. The unresolved matter of you trying to find your past. \n\nYou weigh your options and decide to",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 3,
     "options": [
       {
-        "text": "17",
-        "score": 17,
-        "q_id": "ID17"
+        "text": "Drive faster and say nothing",
+        "q_id": "ID13"
       },
       {
-        "text": "18",
-        "score": 18,
-        "q_id": "ID18"
+        "text": "Talk about the problem",
+        "q_id": "ID14"
+      },
+      {
+        "text": "Try talking about casual things to ensure a nice evening",
+        "q_id": "ID16"
       }
     ]
   },
   {
     "id": "ID13",
-    "text": "Thirteen",
+    "text": "One of your biggest flaws is that you can’t force a conversation. It’s awkward and weird for you. You turn up the music. Alice gently sways her hands while watching out the window. You sigh. Sometimes you wish you could fill a silence, but it is just impossible for you. \n\nYou arrive at Rockford Lounge. ",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 1,
     "options": [
       {
-        "text": "18",
-        "score": 18,
-        "q_id": "ID18"
-      },
-      {
-        "text": "19",
-        "score": 19,
-        "q_id": "ID19"
+        "text": "Enter the restaurant",
+        "q_id": "ID17.5"
       }
     ]
   },
   {
     "id": "ID14",
-    "text": "Fourteen",
+    "text": "You take her hand and intertwine your fingers.\n\nShe turns a little towards you and turns down the music. \n\nYou hesitate. You didn’t know anymore how to reassure her. It’s like you both are standing on the opposite banks of a river. You brace yourself anyway and open your mouth.\n\n“Alice, I just need to know”\n\n“Why? Are you not happy this way? Happy with me?”\n\n“You know this is not about us. I’m worried. And I’m not happy with you being upset either. You know that the constant doubt in the back of my mind keeps worrying me.”\n\n“You said you wouldn’t try anymore after Charles warned you. You said you didn’t care about the past. You need to let it go Ethan”\n\n“Alice you know I’ve been trying to. For the past 5 years. I thought you’d understand”\n\n“I would’ve Ethan. But after Charles told you not to, I don’t want to risk anything. Nothing is worth losing us”\n\n“You know the episodes are getting worse. I know they are tough for you too.”\n\n“Ethan, you’ll recover, trust me. The episodes are a good sign. I know they are tough at times but this is a safer way for you to remember your past. Sure they might take time but I don’t think pushing yourself is any good for you”\n\n“Sometimes it gets too difficult, Alice. All these questions keep haunting me. What does the tattoo on my shoulder mean? Why a snake of all things?! Did I lose my ring finger in a fight or was it chopped off intentionally? I can’t stop thinking about them. It’s getting worse.”\n\n“Ethan, you are just being anxious. It is normal for anyone in your position to feel that way. The tattoo could’ve been just a teenage phase. You could’ve lost your finger in some accident.”\n\n“It looks too clean to be an accident. You know that”\n\n“Ethan, please, just give it some more time”\n\nYou",
     "ending": false,
     "no_of_options": 2,
     "options": [
       {
-        "text": "19",
-        "score": 19,
-        "q_id": "ID19"
+        "text": "Pursue the topic further",
+        "q_id": "ID15"
       },
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
+        "text": "Keep quiet and drive to the restaurant",
+        "q_id": "ID17"
       }
     ]
   },
   {
     "id": "ID15",
-    "text": "Fifteen",
+    "text": "Just then, Your and Alice's favourite song played on the radio. You turn to look into her eyes to see that they were moist. She realised that both of you worked till now. She grabs your arm and leans on your shoulder. You feel bad for ruining the mood, so you decide to stop the conversation. You reach the restaurant.",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 1,
     "options": [
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
-      },
-      {
-        "text": "22",
-        "score": 22,
-        "q_id": "ID22"
+        "text": "Enter the restaurant ",
+        "q_id": "ID17"
       }
     ]
   },
   {
     "id": "ID16",
-    "text": "Sixteen",
+    "text": "You decide to talk about happier things on your anniversary. You and her fondly recall your wedding and the day you proposed to her. She teases you about your sweaty hands when you proposed to her. You tease her about how nervous she was around you when she was an intern. \n\nThe car journey takes no time at all, and before you know it - you are at the restaurant.",
     "ending": false,
     "no_of_options": 1,
     "options": [
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
+        "text": "Enter the restaurant",
+        "q_id": "ID17.5"
       }
     ]
   },
   {
     "id": "ID17",
-    "text": "Seventeen",
+    "text": "Alice liked fancy dining every now and then. The place didn’t disappoint. She beams at you while the waiter directs you to your table. You both order your favourites. You stay silent and look around the restaurant. Looking for all the doors and windows, counting the number of people here today. Alice takes your distractedness and dips her fingers in your glass and sprinkles the water at you giggling. You smile and return the favour but manage to spill your glass on the way.\n\n“Oops, someone’s messy.”\n\n“Yeah, you.” And sprinkle the leftover water in the glass at her. She shrieks quietly so as to not gain attention. You chuckle and call a waiter. \n\n“Can you get me another glass of water?”\n\n“Of course Sir” He throws a napkin on the spilled water. You feel lighter now. You both smile at each other.",
     "ending": false,
-    "no_of_options": 2,
+    "no_of_options": 1,
     "options": [
       {
-        "text": "20",
-        "score": 20,
-        "q_id": "ID20"
-      },
+        "text": "Next",
+        "q_id": "ID18"
+      }
+    ]
+  },
+  {
+    "id": "ID17.5",
+    "text": "Alice liked fancy dining every now and then. The place didn’t disappoint. A waiter comes up to you both with a menu. You silently order your own favourites. The waiter says that it will take a little more time than usual and leaves. You decide now is the best time to bring it up. You both are at your favourite place. Better to resolve this now and enjoy the rest of the date together. She looks at her fingers deep in thought.\n\n“Alice, I just need to know”\n\nShe looks up calmly, as if she was expecting this conversation. “Why? Are you not happy this way?”\n\n“You know this is not about it. I’m worried. And I’m not happy with you being upset either. You know that the constant doubt at the back of my head keeps worrying me.”\n\n“You said you wouldn’t try anymore after Charles warned you. You said you didn’t care about the past. You need to let it go Ethan”\n\n“Alice you know I’ve been trying to. For the past 5 years. I thought you’d understand”\n\n“I would’ve Ethan. But after Charles told you not to, I don’t want to risk anything. Nothing is worth losing us”\n\n“You know the episodes are getting worse. I know they are tough for you too.”\n\n“Ethan, you’ll recover, trust me. The episodes are a good sign. I know they are tough at times but this is a safer way for you to remember your past. Sure they might take time but I don’t think pushing yourself is any good for you”\n\n“Sometimes it is getting too tough Alice. All these questions keep haunting me. Is there any significance for the tattoo on my shoulder? Why a snake of all the things?! Did I lose my ring finger in a fight or was it chopped off intentionally? I can’t stop thinking about them. It is getting worse.”\n\n“Ethan, you are just being anxious. It is normal for anyone in your position to feel that way. The tattoo could’ve been just a teenage phase. You could’ve lost your finger in some accident.”\n\n“It looks too clean to be an accident. You know that”\n\n“Ethan, please, just give it some more time”\n\nSurprisingly, just then Your and Alice's favourite song played. Alice lowered her head and fell silent for a minute. She raises her head, her eyes moist. \nYou get worried. Yes sometimes it's tough but, you realised Alice also worked hard along with you all these years. You decide to take this slowly, but not now. You feel bad for upsetting her on your anniversary. \n\nYou both stay silent for sometime and listen to the calming music, taking your own respective time to get hold of yourselves. You stay silent and look around the restaurant. Looking for all the doors and windows, counting the number of people here today. Alice takes in your distractedness and dips her fingers in your glass and sprinkles the water at you giggling. You smile and return the favour but manage to spill your glass on the way.\n\n“Oops, someone’s messy.”\n\n“Yeah, you.” And sprinkle leftover water in the glass at her. She shrieks quietly so as to not gain attention. You chuckle and call a waiter. \n\n“Can you get me another glass of water?”\n\n“Of course Sir” He throws a napkin on the spilled water. You feel lighter now. You both smile at each other.",
+    "ending": false,
+    "no_of_options": 1,
+    "options": [
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
+        "text": "Next",
+        "q_id": "ID18"
       }
     ]
   },
   {
     "id": "ID18",
-    "text": "Eighteen",
+    "text": "The waiter comes with your glass of water and says that food will be here in 5minutes. You take a sip of water from the glass. It tastes weird. You try to recollect if this is how water tasted every time at this restaurant. \n\nFlash:\n‘You stand behind the counter and mix a glass of wine for someone sitting in front of you. The unclear face keeps blabbering nonsense. You throw a coy smirk at someone passing by behind you before pulling something from their back pocket discreetly and mixing it in the glass filled with wine.’ ----flash end\n\nYou take a sharp breath. \n\n“Again?”\n\n\nYou look up at Alice and nod. “Drink some water”. You do it quietly still reeling from the after effects. She squeezes your hand.\n  \nFood arrives soon. You see Alice curiously digging into her food. You find it cute. You remember your earlier days with her. She looks as beautiful as always. You want to make it up to her. You look at her and say\n\n“Alice, I’m sorry for earlier.”\n \nShe shakes her head and says, “I’m sorry too. But let’s not think about that now, please?” Her eyes searched for an answer. You nod. You decided to take her to the bridge. That place means a lot to both of you. It’s the place where you both often visited to enjoy the sunsets and serenity, where you proposed to her and she whispered yes. ",
     "ending": false,
     "no_of_options": 1,
     "options": [
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
+        "text": "Next",
+        "q_id": "ID19"
       }
     ]
   },
   {
     "id": "ID19",
-    "text": "Nineteen",
+    "text": "You walk hand in hand on the bridge. The sky, black with a thousand scattered stars. The water reflecting the street lights. And some of the reflection from water falling on Alice’s face. You notice the bridge is empty today like it usually is at this time. You feel good to have your alone time with Alice. Despite the serene setting, you feel your head throbbing suddenly. And you can’t let go of the episode you had at the restaurant. What triggered it, you wonder. \n\nYou stumble out of nowhere. \n\n“Careful there, the rails are a little low. Did you drink too much?” She giggles.\n\nYou smile and shake your head. You do feel a little dizzy. Maybe you did drink too much. \n\nA guy in a leather jacket walks into Alice. You notice he is a buff guy with a height at least 6’4”. 4” inches over you. He turns and says sorry to Alice and swiftly walks away. You freeze. The small collision between Alice and him caused his unbuttoned jacket to move aside. The tattoo, you notice, is of a snake with ‘Yellow eyes’ over his shoulder blade.\n\nFlash:\n“We are the snakes. We don’t bite unless provoked. We stick to our business. But once provoked, they need to be poisoned” ---- flash ends\n\nYou turn your head to look at him. He is quite far from you now. You yell “Hey!” He doesn’t turn. You start to speed walk in his direction. The stranger who left an uncanny feeling in you. Alice blocks your way\n\n“What are you doing, Ethan? He didn’t misbehave with me.”\n\n“No Alice, I need to stop him. Move!”\n\n“Ethan, come on. It was a small accident”\n\n“This got nothing to do with you!”\n\nYou raise your eyes from her to look which direction he is going in. Your surroundings start to blur. You feel a sudden frenzy to find him. “Move Alice!”\n\n“No Ethan. Tell me why?”\n\nYour surroundings start to further blur into each other. You can’t lose sight of him. Not now. Not when fate threw him right into your path. Right when you wanted to let go. You gently try to push Alice aside. \n\n“Ethan! You seem a little out of it” She stays where she is. You are losing control over your limbs. You just have to make him stop and then you can lose your consciousness. But Alice is being difficult now and you are feeling frustrated with Alice and yourself. You need to stop the guy and with that single motive you push Alice out of the way roughly out of the way. You can apologize to her later. You start walking in the direction he left. \n\nYou stumble over your own feet yet again. You fall with a thud. You can feel your consciousness slipping. No! Not now, you think. You decide to ask Alice to follow him at least. You turn to your side to ask her help with this. \n\nYou don’t see Alice.\n\n“Alic-” you lose consciousness. ",
     "ending": false,
     "no_of_options": 1,
     "options": [
       {
-        "text": "21",
-        "score": 21,
-        "q_id": "ID21"
+        "text": "Next",
+        "q_id": "ID20"
       }
     ]
   },
   {
     "id": "ID20",
-    "text": "This is ending 1",
+    "text": "You see white surrounding you. An IV connected to your arm. You try to get up.\n\nA nurse walks in. She helps you into a sitting position. You can feel the remaining dizziness clear. “Water please”, you manage to croak somehow.\n\nShe helps you with water.\n\nYou remember that you couldn’t see Alice before fading. \n\n“Nurse, where is my wife? Her name’s Alice” \n\nShe hesitates. “Sir-”\n\nTwo police officers barge in through the closed door.\n\nThe nurse starts, “Sir you need to wait outside”\n\nThey ignore her. “Mr. Ethan Jackson, your wife is dead. And you are the prime suspect.”",
+    "ending": false,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "Next installment coming soon",
+        "q_id": "ID000"
+      }
+    ]
+  },
+  {
+    "id": "ID#1",
+    "text": "The pills look really small. You’ve once seen the same bottle in Alice’s handbag. \n\nYou take three pills, waiting for your head to clear. Instead, you feel your heart beating fast. Worryingly fast. You call Alice out for help, but it is too late. Your heart fails, and Alice finds your body an hour later. \n\nYour funeral is short but extremely emotional. Your tombstone reads: “A Loving Husband”\n\nA man in a black coat visits your grave long after your funeral. He cries his eyes out. You have no idea what that’s all about.",
     "ending": true,
     "no_of_options": 1,
     "options": [
       {
         "text": "Go to main menu",
-        "score": 0,
         "q_id": "mainmenu"
       }
     ]
   },
   {
-    "id": "ID21",
-    "text": "This is ending 2",
+    "id": "ID#2",
+    "text": "Installing security cameras makes people very aware of their surroundings. The number of people who come to the club decreases significantly, hence decreasing the profits. \n\nAlice tries earning for you both, but even her salary doesn’t cover the loan payments on the bar. She leaves you soon. \n\nYou declare bankruptcy. You live a poor man for the rest of your life alone.",
     "ending": true,
     "no_of_options": 1,
     "options": [
       {
         "text": "Go to main menu",
-        "score": 0,
-        "q_id": "mainmenu"
-      }
-    ]
-  },
-  {
-    "id": "ID22",
-    "text": "This is ending 3",
-    "ending": true,
-    "no_of_options": 1,
-    "options": [
-      {
-        "text": "Go to main menu",
-        "score": 0,
         "q_id": "mainmenu"
       }
     ]
