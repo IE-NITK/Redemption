@@ -34,7 +34,7 @@
   {
     "id": "ID01.11",
     "text": "You see surprise on the smaller guy’s face. His mouth opens to give you some warning. By the time you turn to see what the bigger guy’s next move is, he catches you by the back of your neck with his left hand and pulls a knife from his back pocket with his right hand. You try twisting but he overpowers you. He stabs you in the side of your neck and pushes you forward. You stumble into the arms of the smaller guy. He holds you up. The bigger guy starts running but the bouncers enter that precise moment. You can feel your heartbeat slowing down. Your workers and patrons start rushing towards you. Clay yells, “ETHAN!”",
-    "ending": true,
+    "ending": false,
     "no_of_options": 1,
     "options": [
       {
@@ -46,7 +46,7 @@
   {
     "id": "ID01.12",
     "text": "You push your entire weight on your right leg and hook your left between the bigger guy’s legs and use the momentum he gained with the punch to pull his left leg to your side. He loses his balance and falls at the legs of the smaller guy. The smaller guy thinks this is an opportunity for him to assault the fallen bigger guy. He raises his leg to stomp but you push him off before he can. You tell him, “Hey, back off”. He stumbles back. You turn back to  tell the bigger guy to stop causing trouble in your bar. You walk to help the bigger guy. “Ethan, watch out!” You realise too late that the smaller guy pulled a knife from the pocket. He stabs you in the neck. You can feel the life ebbing out of you. You fall to your side. The bouncers come behind the smaller guy and grab him. ",
-    "ending": true,
+    "ending": false,
     "no_of_options": 1,
     "options": [
       {
@@ -237,7 +237,7 @@
   {
     "id": "ID08.1",
     "text": "You can’t go on a date with your wife anymore. Your marriage breaks not long after. You fall into the old helplessness where you don’t have a purpose anymore. But this time the pain is even greater because you can clearly remember what you lost. You waste your life away.",
-    "ending": true,
+    "ending": false,
     "no_of_options": 1,
     "options": [
       {
@@ -249,7 +249,7 @@
   {
     "id": "ID08.2",
     "text": "Police arrest you and put you in jail. You are released the day after your anniversary. Alice is very upset with you. She moves away and goes to live at her mother’s place. You soon get divorce papers in the mail. ",
-    "ending": true,
+    "ending": false,
     "no_of_options": 1,
     "options": [
       {
@@ -457,6 +457,18 @@
   {
     "id": "ID#2",
     "text": "Installing security cameras makes people very aware of their surroundings. The number of people who come to the club decreases significantly, hence decreasing the profits. \n\nAlice tries earning for you both, but even her salary doesn’t cover the loan payments on the bar. She leaves you soon. \n\nYou declare bankruptcy. You live a poor man for the rest of your life alone.",
+    "ending": true,
+    "no_of_options": 1,
+    "options": [
+      {
+        "text": "Go to main menu",
+        "q_id": "mainmenu"
+      }
+    ]
+  },
+  {
+    "id": "ID000",
+    "text": "You have reached an ending",
     "ending": true,
     "no_of_options": 1,
     "options": [
